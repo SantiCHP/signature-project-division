@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+* {
+    padding: 0;
+}
+
+.container {
+  width: 467px;
+  height:99px;
+  background-image: url("./assets/signature_maresa_project_division.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.video-button {
+      display: inline-block;
+      position: relative;
+      top: 85px; left: 55px;
+      overflow: hidden;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      padding: 5px;
+      margin-left: 10px;
+      background-color: #002147;
+      color: #ffffff;
+      font-size: 8px;
+      font-family: 'Source Sans Pro Regular';
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 5px 5px 15px  black;
+      height: 85px;
+      width: 105px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .video-thumbnail {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .video-button:hover {
+      background-color: #C9DD03;
+      color: black;
+    }
+
+    .video-button:active {
+      transform: scale(0.95);
+    }
